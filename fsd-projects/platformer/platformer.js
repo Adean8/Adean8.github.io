@@ -1,3 +1,5 @@
+const { createRef } = require("react");
+
 $(function () {
   // initialize canvas and context when able to
   canvas = document.getElementById("canvas");
@@ -31,7 +33,8 @@ $(function () {
 
 
     // TODO 2 - Create Platforms
-
+createPlatform(300 , 753 , canvas.weidt 6 , canvas.height 20)
+createPlatform(350 , 500 , canvas.width 6 , canvas.height 4)
 
 
 
